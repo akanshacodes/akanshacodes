@@ -82,16 +82,34 @@ work on **Docker & Kubernetes**, and continuously grow through learning & innova
 
 ### 🔹 Azure DevOps CI/CD Pipelines
 
-📌 End-to-end CI/CD pipelines using YAML
-📌 Integrated security scanning (TFSec, TruffleHog)
-🔗 (Add your repo link)
+📌 This project includes a CI/CD pipeline implemented using Azure DevOps.
+
+### 🔄 Workflow
+
+1. Code is pushed to the Azure DevOps Repository  
+2. Pipeline is automatically triggered on commit  
+3. Application is built using Docker  
+4. Docker images are created for all services  
+5. Images are pushed to the container registry  
+6. Deployment is executed using Docker Compose / Kubernetes  
+
+---
+
+### ⚙️ Pipeline Stages
+
+- 🔹 Source → Azure Repos  
+- 🔹 Build → Docker image build  
+- 🔹 Test → Basic validation (if configured)  
+- 🔹 Release → Deployment to target environment
+   
+🔗 (https://github.com/akanshacodes/voting-application-project)
 
 ---
 
 ### 🔹 Kubernetes Deployment
 
 📌 Containerized application deployment using Docker & Kubernetes
-🔗 (Add your repo link)
+🔗 (https://github.com/akanshacodes/voting-application-project)
 
 ---
 
